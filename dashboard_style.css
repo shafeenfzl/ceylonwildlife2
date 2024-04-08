@@ -1,0 +1,129 @@
+.depar-intro {
+    padding: 160px 16% 90px;
+}
+
+:root {
+    --bg-color: #020312;
+    --text-color: #fff;
+    --main-color: #098800;
+    --second-color: gray;
+    --other-color: var(--other-color);
+    --h1-font: 5.2rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;
+}
+
+.depar-intro {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.depar-text h1 {
+    margin: 20px 0;
+    font-size: var(--h1-font);
+    font-weight: bold;
+    line-height: 1.1;
+    letter-spacing: 2px;
+}
+
+.button {
+    float: left;
+    padding: 14px 40px;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    background: var(--gra-elements);
+    color: var(--text-color);
+    transition: all .40s ease;
+}
+
+.button:hover {
+    transform: scale(1.01) translate(5px);
+    background: transparent;
+    border: 1px solid var(--main-color);
+}
+
+.email-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 150px;
+    border: 2px solid var(--main-color);
+}
+th, td {
+    padding: 12px; 
+    text-align: left;
+    font-size: 18px; 
+}
+th {
+    background-color: var(--main-color);
+}
+
+.container {
+    text-align: center;
+}
+
+#enableEditBtn {
+    width: 90%; 
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: 0px 0px 0 2px var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: all .2s ease;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+#enableEditBtn:hover,#disableEditBtn:hover {
+    background: var(--main-color);
+}
+
+#disableEditBtn {
+    width: 90%; 
+    max-width: 500px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: 0px 0px 0 2px var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: all .2s ease;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+@media (max-width: 970px) {
+    :root{
+        --h1-font: 4.2rem;
+        --h2-font: 2.9rem;
+        --p-font: 1rem;        
+    }
+
+    .depar-intro {
+        height: 85vh;
+        padding: 70px 3% 60px;
+    }
+
+    footer {
+        margin-top: 50%;
+    }
+}

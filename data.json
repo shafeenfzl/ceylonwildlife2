@@ -1,0 +1,624 @@
+{
+  "users" : [
+    {
+      "username" : "admin",
+      "password" : "admin",
+      "role" : "admin",
+      "email" : "admin@admin.com"
+    },
+    {
+      "username" : "user",
+      "password" : "user",
+      "role" : "site_user",
+      "email" : "user@user.com"
+    }
+  ],
+
+  "sections": [
+    {
+      "class": "deparintro",
+      "id": "deparintro",
+      "content": {
+        "heading": "Department <br> Of Wild<span>life</span> <br>Conservation",
+        "button_text": "Explore",
+        "video_source": "https://d1y20zyq0hbpn1.cloudfront.net/vid-depar10.mp4"
+      }
+    },
+    {
+      "class": "gal",
+      "id": "gal",
+      "content": {
+        "paragraph": "The Department of Wildlife Conservation in Sri Lanka serves as a crucial guardian of the nation's biodiversity, overseeing the protection of diverse ecosystems within national parks and wildlife reserves. Balancing the needs of local communities with the imperative of conservation, the department employs scientific expertise, technology, and community engagement to mitigate human-wildlife conflicts, protect endangered species, and promote habitat restoration. Their efforts play a vital role in preserving Sri Lanka's unique natural heritage, fostering a sustainable coexistence between humans and the rich array of wildlife that inhabits the country. Below are some of the protedted areas in Sri Lanka.",
+        "protected_areas": [
+          {
+            "name": "Sinharaja Forest Reserve",
+            "image_source": "assets/sin2.JPG"
+          },
+          {
+            "name": "Vidataltivu Nature Reserve",
+            "image_source": "assets/vid.webp"
+          },
+          {
+            "name": "Peak Wilderness Sanctuary",
+            "image_source": "assets/peak3.JPG"
+          },
+          {
+            "name": "Adam's Bridge Marine National Park",
+            "image_source": "assets/adma4.jpg"
+          },
+          {
+            "name": "Hakgala Strict Nature Reserve",
+            "image_source": "assets/hak.webp"
+          },
+          {
+            "name": "Wasgamuwa National Park",
+            "image_source": "assets/img6.jpg"
+          },
+          {
+            "name": "Hikkaduwa National Park",
+            "image_source": "assets/hik.jpg"
+          },
+          {
+            "name": "Pigeon Island National Park",
+            "image_source": "assets/pig.jpg"
+          },
+          {
+            "name": "Bar Reef Marine Sanctuary",
+            "image_source": "assets/bar.jpg"
+          },
+          {
+            "name": "Rumassala Marine Sanctuary",
+            "image_source": "assets/rum2.webp"
+          }
+        ]
+      }
+    },
+    {
+      "class": "depar-map",
+      "content": {
+        "heading": "Finding the Department",
+        "subheading": "Google Maps Location to Department Office",
+        "map_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.202514094577!2d79.88915440602784!3d6.902523658183574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705518235646!5m2!1sen!2slk"
+      }
+    }
+  ],
+
+  "Isections": [
+    {
+      "class": "home1-intro",
+      "id": "home1-intro",
+      "content": {
+        "text": {
+          "h1": "Wildlife<br> Wo<span>nders</span><br>  Of Sri Lanka",
+          "button": {
+            "text": "Explore",
+            "link": "#about-sec"
+          }
+        }
+      }
+    },
+    {
+      "class": "about-sec",
+      "id": "about-sec",
+      "content1": {
+        "about": {
+          "content": {
+            "h2": "An Island of Diverse Wildlife Wonders",
+            "h4": "Safari Spectacles Outside of Africa",
+            "p": "Sri Lanka is considered one of the best destinations for wildlife and safari experiences outside of Africa due to its diversity of species and high densities of iconic animals. The country has its own \"Big Five\" consisting of the Asian elephant, home1pard, sloth bear, blue whale and sperm whale. Several national parks like Yala and Minneriya are famous for the abundance and accessibility of wildlife sightings.<br> <br>The island is especially noteworthy for its marine life and opportunities to spot blue whales and sperm whales. Other highlights include the phenomenon known as \"The Gathering\" where over 300 wild elephants congregate between July and September at Minneriya National Park. This has been listed as one of the top 10 wildlife spectacles globally by Lonely Planet. Sinharaja Forest is the site for observing \"bird waves\" where mixed species flocks form to forage through the trees."
+          },
+          
+          "aboutgri": {
+            "aboutin": [
+              {
+                "h5": "1. Best Safari Destination Outside Africa<span class='hide'>&nbsp;Rivals Africa's iconic wildlife and infrastructure</span>"
+              },
+
+              {
+                "h5": "2. Best for Big Game Safaris<span class='hide'>&nbsp;World's best for sightings of mighty giants</span>"
+              },
+
+              {
+                "h5": "3. The Gathering of Elephants<span class='hide'>&nbsp;300+ assemble seasonally at Minneriya Park</span>"
+              },
+
+              {
+                "h5": "4. Best for leopards<span class='hide'>&nbsp;Highest globally found in Yala National Park</span>"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "class": "services",
+      "id": "services",
+      "content2": {
+        "maintext": {
+          "h2": "Sri Lanka's Enchanting Wildlife",
+          "h4": "Discover the Rich Diversity and Endemic Treasures of the Island's Lush Rainforests"
+        },
+        "servicescontent": {
+          "box": [
+            {
+              "img": "assets/px (3).jpg",
+              "h3": "Unique Epidemic Species",
+              "p": "The island is home to a high number of endemic species, such as the Sri Lankan home1pard, the purple-faced langur, and the Sri Lankan elephant, offering a unique and exclusive wildlife experience."
+            },
+            {
+              "img": "assets/px (1).jpg",
+              "h3": "Diverse Ecosystems",
+              "p": "Sri Lanka boasts rich ecosystem diversity, including rainforests, dry forests, and coastal areas, providing habitats for a wide range of wildlife and offering unique experiences for nature enthusiasts."
+            },
+            {
+              "img": "assets/px (2).jpg",
+              "h3": "Elephant Conservation",
+              "p": "Sri Lanka is home to the largest threatened mammal species, the elephas maximus, with increasing human-elephant conflict indicating the need for adequate habitat to support these majestic creatures."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "class": "guide",
+      "id": "guide",
+      "content3": {
+        "guidetext": {
+          "h2": "Getting Around The Site",
+          "h4": "Summaries to Help Navigate",
+          "p": "The website provides an informative overview of wildlife in Sri Lanka. It includes details on key wildlife locations across the country beyond the well-known Yala and Wilpattu National Parks. Readers can learn about the indigenous animals found in each area through descriptions, maps, and assets. There is also a summary table comparing details about specific animal species.<br> <br>In addition to the wildlife introduction page, the site contains further details on conservation efforts. This includes information on the Department of Wildlife Conservation and threats facing the Sri Lankan home1pard along with conservation measures. Those interested in learning more about specific parks can read about both Yala and Wilpattu National Parks. The two parks have distinct pages showcasing what makes each location unique through multiple assets, rich descriptions, and helpful sections. Overall, the website serves as a comprehensive guide for those looking to understand and appreciate the diverse wildlife Sri Lanka has to offer visitors. The points below are the pages the site offers."
+        }
+      }
+    },
+    {
+      "class": "newsletter",
+      "content4": {
+        "maintext": {
+          "h2": "Newsletter Subscription",
+          "h4": "Stay Up-to-date with all the News Surrounding Sri Lankan Wildlife"
+        }
+      }
+    }
+  ],
+
+  "hortonpark": {
+    "pkhead": {
+      "title": "Horton Plains National Park",
+      "description": "Where the Grassland Meets the Cloud Forest: Sri Lanka's Misty Mountain Gem"
+    },
+
+    "pkinfo": {
+      "pks": {
+        "pkcontent": {
+          "title": "A Highland Wilderness",
+          "description": "Horton Plains features a unique montane grassland ecosystem, with highland plateaus over 2,000 meters in elevation. The cool climate supports grasslands interspersed with stunted cloud forests rather than dense jungle. <br><br>Despite its small size, Horton Plains hosts an impressive diversity of flora and fauna. Over 20 mammal species roam the plains, including sambar deer, purple-faced langurs, and the rare rusty-spotted cat. Endemic bird species include the dull-blue flycatcher and Sri Lanka white-eye. Many rare plants are found here too, especially orchids and rhododendrons. <br><br>Nearly half the birds and four of the mammals found in Horton Plains are endemic species, highlighting its vital role in Sri Lankan biodiversity conservation. Ongoing efforts like patrolling for illegal activity help protect this ecosystem and its inhabitants. Carefully managed tourism provides revenue supporting conservation."
+        }
+      }
+    },
+
+    "mtext": {
+      "title": "Horton Plains",
+      "description": "Animal Information & Park Location"
+    },
+    "pktb": {
+      "seccontainer": {
+        "sectable": { 
+          "thead": {
+            "tbhead": {
+              "columns": ["Species", "Habitat", "Facts", "Conservation"]
+            }
+          },
+          "tbody": {
+            "animals": [
+              {
+                "Species": "Sri Lankan <br>Leopard",
+                "Habitat": "Rocky Outcropsa and Montane Woodlands",
+                "Facts": "Apex predator, elusive and camouflaged in dense forests.",
+                "Conservation": "Anti-poaching patrols safeguard their territory."
+              },
+              {
+                "Species": "Purple-faced <br>Langur",
+                "Habitat": "Montane Woodlands and Bamboo Groves",
+                "Facts": "Endemic monkeys with striking purple faces",
+                "Conservation": "Habitat protection gives them plenty of space to find food and be with their families"
+              },
+              {
+                "Species": "Sambar Deer",
+                "Habitat": "Montane Grasslands and Shrublands",
+                "Facts": "Largest deer species in Sri Lanka",
+                "Conservation": "Controlled burning maintains grassland habitats, preventing encroachment of forests"
+              },
+              {
+                "Species": "Sri Lankan Bush Warbler",
+                "Habitat": "Montane Heaths and Grasslands",
+                "Facts": "Endemic bird with distinctive brown plumage",
+                "Conservation": "Habitat restoration promotes the growth of these unique heathland plants"
+              }
+            ]
+          },
+          "tfoot": {
+            "message": "Ascend to a misty haven, where clouds dance with wild enchantment."
+          }
+        }
+      }
+    }
+  },
+  
+  "udpark": {
+    "pkhead": {
+      "title": "Minneriya National Park",
+      "description": "Whispers of History and Echoes of Nature: A Timeless Sri Lankan Jewel"
+    },
+    "pkinfo": {
+      "pks": {
+        "pkcontent": {
+          "title": "A Gathering Place for Giants",
+          "description": "Minneriya becomes the stage for an incredible phenomenon, a mass gathering of elephants. Hundreds emerge from the surrounding forests to bask in the retreating waters of the Minneriya reservoir, forming herds of up to 300 individuals. The sheer concentration of these highly social creatures in one area creates a majestic sight during the months of July through October. <br><br>Safaris ride through the shrub forests and grasslands along the reservoir's shore, glimpsing intimate elephant behaviors that are not always visible when ranging solitary in the wilds. Yet along with the elephants, Minneriya remains home to spotted deer, sambar deer, buffalo, wild boar and 24 species of reptiles through the dry months. <br><br>As water eventually returns during the rainy season, the elephant gatherings dissipate back into the broad reaches of Minneriya National Park where they feed and shelter year round."
+        }
+      }
+    },
+    "maintext": {
+      "title": "Minneriya",
+      "description": "Animal Information & Park Location"
+    },
+    "pktb": {
+      "seccontainer": {
+        "sectable": {
+          "thead": {
+            "tbhead": {
+              "columns": ["Species", "Habitat", "Facts", "Conservation"]
+            }
+          },
+          "tbody": {
+            "animals": [
+              {
+                "Species": "Asian Elephant",
+                "Habitat": "Grasslands and Plains",
+                "Facts": "Largest gathering of elephants in the world.",
+                "Conservation": "Habitat protection provides ample grazing areas, minimizing conflict."
+              },
+              {
+                "Species": "Mugger <br>Crocodile",
+                "Habitat": "Freshwater lagoons and the edges of Minneriya Wewa",
+                "Facts": "Can hold their breath for over an hour",
+                "Conservation": "Protection and crocodile breeding programs help maintain populations"
+              },
+              {
+                "Species": "Peacocks",
+                "Habitat": "Open grasslands and scattered scrublands",
+                "Facts": "Males have over 150 iridescent feathers in their train",
+                "Conservation": "Protected within the park, their numbers are stable"
+              },
+              {
+                "Species": "Sloth Bears",
+                "Habitat": "Dense forests and thickets",
+                "Facts": "National bird of Sri Lanka, males have distinctive red wattles.",
+                "Conservation": "Habitat loss and human conflict pose threats. Education and anti-poaching efforts are crucial."
+              }
+            ]
+          },
+          "tfoot": {
+            "message": "Embrace Minneriya's magic, where history whispers and wildlife thrives."
+          }
+        }
+      }
+    }
+  },
+
+  "Ysections": [
+    {
+      "class": "leo-intro",
+      "id": "leo-intro",
+      "content": {
+        "text": {
+          "heading": "Yala <br> Nati<span>onal</span><br> Park"
+        }
+      }
+    },
+    {
+      "class": "info",
+      "id": "info",
+      "content": {
+        "car": {
+          "image": "assets/elep1.jpg",
+          "text": "Yala National Park is the most visited and second largest national park in Sri Lanka, with a total area of 979 square kilometres. It is famous for its high density of leopards, elephants, and aquatic birds. The park has a variety of ecosystems, from moist monsoon forests to freshwater and marine wetlands. It also has some ancient Buddhist sites, such as Sithulpahuwa and Magul Vihara. Yala was declared a wildlife sanctuary in 1900 and a national park in 1938."
+        }
+      }
+    },
+    {
+      "class": "gal",
+      "content": {
+        "maintext": {
+          "heading": "Beyond the Surface in Yala",
+          "subheading": "3 Captivating Things You Likely Didn't Know"
+        },
+        "galcard": {
+          "boxes": [
+            {
+              "image": "assets/rock1.jpeg",
+              "overlay": {
+                "heading": "Did you know?",
+                "text": "Yala National Park is composed of metamorphic rock from the Precambrian era and has a flat and mildly undulating topography.",
+                "link": "#"
+              }
+            },
+            {
+              "image": "assets/pilg.jpg",
+              "overlay": {
+                "heading": "Did you know?",
+                "text": "Yala National Park has a pilgrimage site that about 400,000 pilgrims visit annually. It is the landing site of Prince Vijaya, the founder of the Sinhala nation.",
+                "link": "#"
+              }
+            },
+            {
+              "image": "assets/block2.webp",
+              "overlay": {
+                "heading": "Did you know?",
+                "text": "The Park is divided into five blocks to maintain a pristine area in the face of tourism and other activity. Blocks 1 and 5 are for the public to visit. Blocks 2, 3 and 4 are more rugged and require permits to enter.",
+                "link": "#"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "class": "navigation",
+      "content": {
+        "maintext": {
+          "heading": "Journey Through Yala",
+          "subheading": "Navigation to Enhance Your Safari Experience"
+        }, 
+        "cards": [
+          {
+            "class": "card-1",
+            "title": "Official Website for Yala National Park: News, rules and more.",
+            "link": "https://www.yalasrilanka.lk/"
+          },
+          {
+            "class": "card-2",
+            "title": "Visiting Yala National Park: The Ultimate Guide",
+            "link": "https://www.saltinourhair.com/sri-lanka/yala-national-park/"
+          },
+          {
+            "class": "card-3",
+            "title": "TripAdvisor for Yala: Plan your stay, forum discussions and find hotels.",
+            "link": "https://www.saltinourhair.com/sri-lanka/yala-national-park/"
+          },
+          {
+            "class": "card-4",
+            "title": "Official Facebook Profile for Yala National Park.",
+            "link": "https://m.facebook.com/profile.php/?id=100077694242036"
+          },
+          {
+            "class": "card-5",
+            "title": "Yala National Park: Google Maps Location",
+            "link": "https://maps.app.goo.gl/wM7JLgdCe6TVZZBB9"
+          }
+        ]
+      }
+    }
+  ],
+  
+  "Wsections": [
+    {
+      "class": "leo-intro",
+      "id": "leo-intro",
+      "content": {
+        "text": {
+          "heading": "Wilpattu <br> Nati<span>onal</span><br> Park",
+          "button": {
+            "text": "Explore",
+            "link": "#info"
+          }
+        }
+      }
+    },
+    {
+      "class": "info",
+      "id": "info",
+      "content": {
+        "car": {
+          "image": "assets/leop1.jpg",
+          "text": "Wilpattu National Park is the largest and one of the oldest national parks in Sri Lanka, with a total area of 1,317 square kilometres. It is named after the natural lakes or 'willus' that dot the park. It is home to leopards, sloth bears, elephants, and many other species of wildlife. The park has a dry semi-arid climate and a dense forest cover. It also has a historical significance, as it is the landing site of Prince Vijaya, the founder of the Sinhala nation. Wilpattu was declared a wildlife sanctuary in 1905 and a national park in 1938."
+        }
+      }
+    },
+    {
+      "class": "gal",
+      "content": {
+        "maintext": {
+          "heading": "Beyond the Surface of Wilpattu",
+          "subheading": "3 Fascinating Need-to-Know Facts"
+        },
+        "galcard": {
+          "boxes": [
+            {
+              "image": "assets/will4.jpeg",
+              "overlay": {
+                "heading": "Did you know?",
+                "text": "From 1988 to 2003, the park was closed due to the Sri Lankan Civil War, before being reopened to visitors sixteen years later. Visitor access is currently limited to approximately 25% of the park.",
+                "link": "https://www.lovesrilanka.org/wilpattu-national-park/"
+              }
+            },
+            {
+              "image": "assets/will7.jpg",
+              "overlay": {
+                "heading": "Did you know?",
+                "text": "Originally covering parts of Puttalam and Anuradhapura districts, in 2012 the government expanded Wilpattu National Park to also encompass regions of the Northern Province.",
+                "link": "https://ceylonwildtours.com/wilpattu-national-park-sri-lanka/"
+              }
+            },
+            {
+              "image": "assets/will3.jpeg",
+              "overlay": {
+                "heading": "Did you know?",
+                "text": "Ancient Roman and Greek merchants were blown off course to Wilpattu's shores during monsoon season in 47 AD during the time of Emperor Claudius. The local king later sent envoys back to Rome.",
+                "link": "https://daily.jstor.org/holiday-supply-chain-issues-of-ancient-rome/"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "class": "navigation",
+      "content": {
+        "maintext": {
+          "heading": "Plan Your Wilpattu Adventure",
+          "subheading": "Useful Links to Guide Your Journey"
+        },
+        "cards": [
+          {
+            "class": "card-1",
+            "title": "Depar. Of Wildlife Conservation.",
+            "link": "https://www.dwc.gov.lk/wnp/si/"
+          },
+          {
+            "class": "card-2",
+            "title": "Wilpattu National Park Official Website.",
+            "link": "https://www.wilpattunationalpark.com/"
+          },
+          {
+            "class": "card-3",
+            "title": "TripAdvisor for Wilpattu: Forums, hotels and more.",
+            "link": "https://www.tripadvisor.com/Tourism-g3186994-Wilpattu_National_Park_North_Western_Province-Vacations.html"
+          },
+          {
+            "class": "card-4",
+            "title": "Facebook Profile for Wilpattu.",
+            "link": "https://www.facebook.com/wilpattu/"
+          },
+          {
+            "class": "card-5",
+            "title": "Wilpattu Park: Google Maps Location.",
+            "link": "https://maps.app.goo.gl/we2SJJ4WJZs8SjuFA"
+          }
+        ]
+      }
+    }
+  ],
+
+  "Lsections": [
+    {
+      "class": "leo-intro",
+      "id": "leo-intro",
+      "content": { 
+        "leotext": {
+          "h1": "The <br> Sri <span>Lankan</span><br> Leopard",
+          "button": "Explore"
+        }
+      }
+    },
+
+    {
+      "class": "venue",
+      "id": "venue",
+      "content": {
+        "maintext": {
+          "h2": "Exploring Sri Lankan Leopard Habitats",
+          "h4": "A Glimpse into Three Conservation Hotspots"
+        }, 
+        "venuecontent": [ 
+          {
+            "box": {
+              "img": "assets/yala4.jpg",
+              "h3": "Yala Park",
+              "p": "Home to Sri Lankan leopards, Yala's diverse landscapes in the southeast provide an ideal habitat for these elusive big cats."
+            }
+          },
+          {
+            "box": {
+              "img": "assets/wilpattu1.jpg",
+              "h3": "Wilpattu Park",
+              "p": "The largest park in Sri Lanka, Wilpattu's northwest location features natural lakes \"villus\" and is vital for leopard conservation."
+            }
+          },
+          {
+            "box": {
+              "img": "assets/horton1.jpg",
+              "h3": "Horton Plains Park",
+              "p": "Horton Plains houses leopards amidst montane grasslands and cloud forests, showcasing their adaptability to diverse ecosystems."
+            }
+          }
+        ]
+      }
+    },
+    
+    {
+      "class": "venue2",
+      "id": "venue2",
+      "content": {
+        "maintext2": {
+          "h2": "Leopard Conservation Challenges in Sri Lanka",
+          "h4": "Understanding Threats and Conservation Efforts"
+        }
+      }
+    },
+          
+    {
+      "class": "threats",
+      "id": "threats",
+      "content": {
+        "threats-img": {
+          "img": "assets/poach.jpg"
+        },    
+        "threatstext": {
+          "threatsgri": {
+            "threatsin": {
+              "h5": "1. Poaching"
+            },
+            "h4": "Illegal Exploitation",
+            "p": "Poaching poses a severe threat to leopards in Sri Lanka, involving illegal hunting for their skins and body parts, leading to population decline. Conservation efforts focus on strengthening law enforcement and community engagement."
+          },
+          "button2": "Explore"
+        }
+      }
+    },
+
+    {
+      "class": "threats",
+      "id": "threats",
+      "content": {
+        "threats-img": {
+          "img": "assets/hab.jpg"
+        },
+        "threatstext": {
+          "threatsgri": {
+            "threatsin": {
+              "h5": "2. Habitat Loss"
+            },
+            "h4": "Urbanization Impact",
+            "p": "Rapid Urbanization and agricultural expansion contribute to the loss of leopard habitats, leading to increased human-wildlife conflict. Conservation strategies include habitat restoration projects and community awareness."
+          },
+          "button2": "Explore"
+        }
+      }
+    }
+  ],
+
+  "leointro": {
+    "title": "The <br> Animals In<br> Sri <span> Lanka</span>",
+    "video_source": "https://d1y20zyq0hbpn1.cloudfront.net/ani-vid1.mp4",
+    "button_text": "Explore"
+  },
+
+  "brief": {
+    "description": "Sri Lanka is a biodiversity hotspot with a rich variety of flora and fauna. Sri Lanka has one of the highest rates of biological endemism in the world. <br> <br> Sri Lanka is home to roughly 123 species of mammals, 41 of which are threatened. 16 of the species are endemic, including the large sloth bear, the endemic Sri Lanka leopard, the Sri Lankan elephant and the sambar. <br> <br> Sri Lanka also has a diverse birdlife, with 227 species of birds, 46 of which are threatened. The national bird is the Sri Lankan junglefowl, which is endemic to the island."
+  },
+
+  "portfolio": {
+    "mainheading": "Sri Lanka's Natural Marvels",
+    "subheading": "Explore Yala and Wilpattu National Parks",
+    "content": [
+      {
+        "title": "Yala National Park",
+        "description": "Rich biodiversity, iconic leopards, and diverse ecosystems in southern Sri Lanka."
+      },
+      {
+        "title": "Wilpattu National Park",
+        "description": "Serene landscapes, ancient ruins, and thriving wildlife in northwest Sri Lanka."
+      }
+    ]
+  }  
+}  

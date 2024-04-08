@@ -1,0 +1,63 @@
+.login-page {
+    width: 460px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: var(--other-color);
+    max-width: 460px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border: 5px solid #002b31;
+}
+
+::placeholder {
+    color: rgb(91, 91, 91);
+}
+
+.form input {
+    font-family: "Play", sans-serif;
+    outline: 0;
+    background: rgb(151, 150, 150);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Play", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: var(--gra-elements);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    transition: all .2s ease;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active,.form button:focus {
+    background: transparent;
+    box-shadow: 0px 0px 0 2px var(--main-color);
+}
+
+
+.form .message {
+    margin-top: 30px;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}

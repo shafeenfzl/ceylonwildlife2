@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to Google Fonts and external stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;01,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" type="text/css" href="dashboard_style.css">
+    <link rel="stylesheet" type="text/css" href="globalstyle.css">
+
+    <!-- Title of the webpage -->
+    <title>CeylonWildlife: Dashboard</title>
+    <link rel="icon" type="image/x-icon" href="assets/bird-svgrepo-com.svg">
+
+</head>
+<body>
+    <!-- Header section with logo, menu icon, and navigation -->
+    <header>
+        <!-- Logo and menu icon -->
+        <h2 class="logo">ceylon<span>wildlife</span></h2>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg==" id="menu-icon">
+
+        <!-- Navigation menu -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Intro</a></li>
+                <li><a href="depar.html">Depar.</a></li>
+                <li class="dropdown-link"><a href="#">Locations &#x25BE;</a>
+                    <ul class="dropdown">
+                        <li><a href="yala.html">Yala</a></li>
+                        <li><a href="wilpattu.html">Wilpattu</a></li>
+                    </ul>
+                </li>
+                <li><a href="leo.html">Leopard</a></li>
+                <li><a href="ani.html">Animals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction section -->
+    <section class="depar-intro" id="depar-intro">
+        <div class="depar-text">
+            <h1>Administrator<br>Dash<span>board</span></h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <button id="enableEditBtn">Enable: Website Editing</button>
+        <button id="disableEditBtn">Disable: Website Editing</button>
+    </div>
+
+    <section class="email-sec">
+        <table id="emailTable">
+            <thead>
+                <tr>
+                    <th>Subscribed Emails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Subscribed emails will be entered here -->
+            </tbody>
+        </table>
+    </section>
+    
+    <!-- Footer section with site information and external links -->
+    <footer>
+        <!-- Footer content with logo, reference links, and copyright information -->
+        <div class="footer">
+            <div class="roww">
+                <a class="flogo" href="#">ceylon<span>wildlife</span></a>
+            </div>
+        
+            <div class="roww">
+                <!-- List of external reference links -->
+                <ul>
+                    <li><a class="ite1" href="#" target="_blank">References</a></li>
+                    <li><a class="ite1" href="https://www.srilanka.travel/emergency-services" target="_blank">Sri Lanka Emergency Services</a></li>
+                    <li><a class="ite1" href="https://jentje.com/languages-of-sri-lanka/" target="_blank">Language Guide</a></li>
+                    <li><a class="ite1" href="https://sltda.gov.lk/en" target="_blank">Tourism Development Authority</a></li>
+                    <li><a class="ite1" href="https://www.meteo.gov.lk/index.php?lang=en" target="_blank">Weather Forecast</a></li>
+                </ul>
+            </div>
+        
+            <div class="roww">
+                <!-- Copyright information and year -->
+                ceylonwildlife © 2024 - all rights reserved | sfn.fzl 
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button with upward arrow icon -->
+    <a href="login.html" class="top">Login</a>
+
+    <!-- JavaScript file for additional functionality -->
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="dashboard.js"></script>
+</body>
+</html>

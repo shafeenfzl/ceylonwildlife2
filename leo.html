@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;01,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" type="text/css" href="leo_style.css">
+    <link rel="stylesheet" type="text/css" href="globalstyle.css">
+    <title>CeylonWildlife</title>
+    <link rel="icon" type="image/x-icon" href="assets/bird-svgrepo-com.svg">
+</head>
+<body>
+    <header>
+        <h2 class="logo">ceylon<span>wildlife</span></h2>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg==" id="menu-icon">
+    
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Intro</a></li>
+                <li><a href="depar.html">Depar.</a></li>
+                <li class="dropdown-link"><a href="#">Locations &#x25BE;</a>
+                    <ul class="dropdown">
+                        <li><a href="yala.html">Yala</a></li>
+                        <li><a href="wilpattu.html">Wilpattu</a></li>
+                    </ul>
+                </li>
+                <li><a href="leo.html">Leopard</a></li>
+                <li><a href="ani.html">Animals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="leo-intro" id="leo-intro">
+        <div class="leo-text">
+            <h1 id="title1"></h1>
+            <a href="#venue" class="button">Explore</a>
+        </div>
+    </section>
+
+    <section class="venue" id="venue">
+        <div class="main-text">
+            <h2 id="title2"></h2>
+            <h4 id="sub1"></h4>
+        </div>
+
+        <div class="venue-content">
+            <div class="box">
+                <img src="assets/yala4.jpg">
+                <h3 id="title3"></h3>
+                <p id="sub2"></p>
+            </div>
+
+            <div class="box">
+                <img src="assets/wilpattu1.jpg">
+                <h3 id="title4"></h3>
+                <p id="sub3"></p>
+            </div>
+
+            <div class="box">
+                <img src="assets/horton1.jpg">
+                <h3 id="title5"></h3>
+                <p id="sub4"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="venue2" id="venue2">
+        <div class="main-text2">
+            <h2 id="title6"></h2>
+            <h4 id="sub5"></h4>
+        </div>
+    </section>
+    
+    <section class="threats" id="threats">
+        <div class="threats-img">
+            <img src="assets/poach.jpg">
+        </div>
+
+        <div class="threats-text">
+            <div class="threats-gri">
+                <div class="threats-in">
+                    <h5 id="d1"></h5>
+                </div>
+                <h4 id="d2"></h4>
+                <p id="i1"></p>
+            </div>
+            <a href="https://www.pbs.org/wnet/nature/leopards-of-yala-leopard-poaching/2743/#:~:text=In%20Sri%20Lanka%2C%20researchers%20believe,lies%20off%20India's%20southern%20coast." class="button2" target="_blank">Explore</a>
+        </div>
+    </section>
+
+    <section class="threats" id="threats">
+        <div class="threats-img">
+            <img src="assets/hab.jpg">
+        </div>
+
+        <div class="threats-text">
+            <div class="threats-gri">
+                <div class="threats-in">
+                    <h5 id="d3"></h5>
+                </div>
+                <h4 id="d4"></h4>
+                <p id="i2"></p>
+            </div>
+            <a href="https://leopardtrails.com/sri-lankan-leopard/#:~:text=Panthera%20Pardus%20Kotiya%20is%20a,and%20of%20course%20habitat%20loss." class="button2" target="_blank">Explore</a>
+
+        </div>
+    </section>
+
+    <button id="editBtn" class="edit-btn">Edit</button>
+    <div id="editPopup" class="edit-popup">
+      <select id="contentSelector">
+        <option value="title1">The Sri Lankan...</option>
+        <option value="title2">Exploring Sri...</option>
+        <option value="sub1">A Glimpse into...</option>
+        <option value="title3">Yala Park</option>
+        <option value="sub2">Home to...</option>
+        <option value="title4">Wilpattu Park</option>
+        <option value="sub3">The largest...</option>
+        <option value="title5">Horton Plains Park</option>
+        <option value="sub4">Horton Plains houses...</option>
+        <option value="title6">Leopard Conservation...</option>
+        <option value="sub5">Understanding Threats...</option>
+        <option value="d1">Poaching</option>
+        <option value="d2">Illegal Exploitation...</option>
+        <option value="i1">Poaching poses...</option>
+        <option value="d3">Habitat Loss</option>
+        <option value="d4">Urbanization...</option>
+        <option value="i2">Raapid Urbanization...</option>
+      </select>
+      <input type="text" id="newContent" placeholder="Enter new message">
+      <button id="saveBtn">Save</button>
+<p class="close-menu">Click <span id="closeMenu">here</span> to close the menu.</p>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="roww">
+                <a class="flogo" href="#">ceylon<span>wildlife</span></a>
+            </div>
+        
+            <div class="roww">
+                <ul>
+                    <li><a class="ite1" href="#" target="_blank">References</a></li>
+                    <li><a class="ite1" href="https://www.srilanka.travel/emergency-services" target="_blank">Sri Lanka Emergency Services</a></li>
+                    <li><a class="ite1" href="https://jentje.com/languages-of-sri-lanka/" target="_blank">Language Guide</a></li>
+                    <li><a class="ite1" href="https://sltda.gov.lk/en" target="_blank">Tourism Development Authority</a></li>
+                    <li><a class="ite1" href="https://www.meteo.gov.lk/index.php?lang=en" target="_blank">Weather Forecast</a></li>
+                </ul>
+            </div>
+        
+            <div class="roww">
+                ceylonwildlife © 2024 - all rights reserved | sfn.fzl 
+            </div>
+        </div>
+    </footer>
+
+ <a href="login.html" class="top">Login</a>
+
+ <script type="text/javascript" src="script.js"></script>
+ <script type="text/javascript" src="leo.js"></script>
+ <script type="text/javascript" src="edit.js"></script>
+    
+</body>
+</html>

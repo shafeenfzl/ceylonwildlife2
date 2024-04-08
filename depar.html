@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to Google Fonts and external stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;01,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" type="text/css" href="depar_style.css">
+    <link rel="stylesheet" type="text/css" href="globalstyle.css">
+
+    <!-- Title of the webpage -->
+    <title>CeylonWildlife</title>
+    <link rel="icon" type="image/x-icon" href="assets/bird-svgrepo-com.svg">
+
+</head>
+<body>
+    <!-- Header section with logo, menu icon, and navigation -->
+    <header>
+        <!-- Logo and menu icon -->
+        <h2 class="logo">ceylon<span>wildlife</span></h2>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAGZJREFUSEvtlrENACAMw8pnnMZpfAYTC1W3CDOEA2JhUpUW0GkQNwx+Zt6qj+ohdp7yKtVLDE6c78DiC+c4t/o46WLX8877rlzYOGGqxU/scYryB4KVCwNja9GtlhvwWpQrrQIx1Rt3TwofeC3yFwAAAABJRU5ErkJggg==" id="menu-icon">
+
+        <!-- Navigation menu -->
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">Intro</a></li>
+                <li><a href="depar.html">Depar.</a></li>
+                <li class="dropdown-link"><a href="#">Locations &#x25BE;</a>
+                    <ul class="dropdown">
+                        <li><a href="yala.html">Yala</a></li>
+                        <li><a href="wilpattu.html">Wilpattu</a></li>
+                    </ul>
+                </li>
+                <li><a href="leo.html">Leopard</a></li>
+                <li><a href="ani.html">Animals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction section with video background -->
+    <section class="depar-intro" id="deparintro">
+        <video autoplay loop muted class="depar-video">
+          <source src="https://d1y20zyq0hbpn1.cloudfront.net/vid-depar10.mp4" type="video/mp4">
+        </video>
+        <!-- Text overlay on the video background -->
+        <div class="depar-text">
+            <h1 id="heading"></h1>
+          <a href="#gal" class="button" id="button_text"></a>
+        </div>
+    </section>
+    
+    <!-- Gallery section showcasing protected areas in Sri Lanka -->
+    <section class="gal" id="gal">
+        <div class="content">
+            <p id="paragraph"></p>
+            <div class="gallery">
+                <figure class="galleryItem">
+                    <img src="assets/sin2.JPG" alt=""></a>
+                    <figcaption id="name1"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/vid.webp" alt=""></a>
+                    <figcaption id="name2"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/peak3.JPG" alt="">
+                    <figcaption id="name3"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/adma4.jpg" alt="">
+                    <figcaption id="name4"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/hak.webp" alt="">
+                    <figcaption id="name5"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/img6.jpg" alt="">
+                    <figcaption id="name6"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/hik.jpg" alt="">
+                    <figcaption id="name7"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/pig.jpg" alt="">
+                    <figcaption id="name8"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/bar.jpg" alt="">
+                    <figcaption id="name9"></figcaption>
+                </figure>
+                <figure class="galleryItem">
+                    <img src="assets/rum2.webp" alt="">
+                    <figcaption id="name10"></figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map section with Google Maps location of the Department -->
+    <section class="depar-map">
+        <div class="main-text">
+            <h2 id="title2"></h2>
+            <h4 id="sub1"></h4>
+        </div>
+        
+        <!-- Google Maps embedded iframe -->
+        <div class="map-container">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31687.202514094577!2d79.88915440602784!3d6.902523658183574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705518235646!5m2!1sen!2slk" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <button id="editBtn" class="edit-btn">Edit</button>
+    <div id="editPopup" class="edit-popup">
+      <select id="contentSelector">
+        <option value="heading">Department Of...</option>
+        <option value="paragraph">The Department of Wildlife...</option>
+        <option value="name1">Img1Txt</option>
+        <option value="name2">Img2Txt</option>
+        <option value="name3">Img3Txt</option>
+        <option value="name4">Img4Txt</option>
+        <option value="name5">Img5Txt</option>
+        <option value="name6">Img6Txt</option>
+        <option value="name7">Img7Txt</option>
+        <option value="name8">Img8Txt</option>
+        <option value="name9">Img9Txt</option>
+        <option value="name10">Img10Txt</option>
+        <option value="title2">Finding the...</option>
+        <option value="sub1">Google Maps Location...</option>  
+      </select>
+      <input type="text" id="newContent" placeholder="Enter new message">
+      <button id="saveBtn">Save</button>
+<p class="close-menu">Click <span id="closeMenu">here</span> to close the menu.</p>
+    </div>
+
+    <!-- Footer section with site information and external links -->
+    <footer>
+        <!-- Footer content with logo, reference links, and copyright information -->
+        <div class="footer">
+            <div class="roww">
+                <a class="flogo" href="#">ceylon<span>wildlife</span></a>
+            </div>
+        
+            <div class="roww">
+                <!-- List of external reference links -->
+                <ul>
+                    <li><a class="ite1" href="#" target="_blank">References</a></li>
+                    <li><a class="ite1" href="https://www.srilanka.travel/emergency-services" target="_blank">Sri Lanka Emergency Services</a></li>
+                    <li><a class="ite1" href="https://jentje.com/languages-of-sri-lanka/" target="_blank">Language Guide</a></li>
+                    <li><a class="ite1" href="https://sltda.gov.lk/en" target="_blank">Tourism Development Authority</a></li>
+                    <li><a class="ite1" href="https://www.meteo.gov.lk/index.php?lang=en" target="_blank">Weather Forecast</a></li>
+                </ul>
+            </div>
+        
+            <div class="roww">
+                <!-- Copyright information and year -->
+                ceylonwildlife © 2024 - all rights reserved | sfn.fzl 
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button with upward arrow icon -->
+    <a href="login.html" class="top">Login</a>
+    <!-- JavaScript file for additional functionality -->
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="depar.js"></script>
+    <script type="text/javascript" src="edit.js"></script>
+</body>
+</html>
