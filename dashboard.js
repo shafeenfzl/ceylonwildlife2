@@ -12,7 +12,7 @@ subscriptions.forEach(email => {
 
 document.getElementById("enableEditBtn").addEventListener("click", function() {
     localStorage.setItem("editEnabled", true);
-    alert("CeylonWildlife: Successfully enabled site-wide editing.");
+    alert("CeylonWildlife: Successfully enabled site-wide editing. An edit button is now visible on all public web-pages.");
     showEditButton();
   });
   
